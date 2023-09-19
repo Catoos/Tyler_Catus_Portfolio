@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/catoos/catoos.github.io"
   },
-  "homepage": "https://github.com/Catoos/catoos.github.io",
+  "homepage": "https://github.com/Catoos/catoos.github.io/tree/master/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
