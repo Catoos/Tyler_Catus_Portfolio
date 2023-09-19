@@ -12,6 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/catoos/catoos.github.io"
   },
+  "homepage": "https://github.com/Catoos/catoos.github.io",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "prettier": "^2.8.1"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.3.2",
