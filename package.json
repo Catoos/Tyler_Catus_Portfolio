@@ -3,16 +3,16 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catoos/catoos.github.io"
+    "url": "git+https://github.com/catoos/Tyler_Catus_Portfolio"
   },
-  "homepage": "https://github.com/Catoos/catoos.github.io",
+  "homepage": "https://github.com/Catoos/Tyler_Catus_Portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
