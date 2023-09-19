@@ -26,6 +26,7 @@
   @include supportColorForIE11();
   border-width: 2px;
   border-style: solid;
+  margin-right: 10px;
   -moz-border-image: -moz-linear-gradient(
     135deg,
     $primary-color 0%,

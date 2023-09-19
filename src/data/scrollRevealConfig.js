@@ -64,4 +64,11 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".skills",
+    animation: {
+      delay: 800,
+      origin: window.innerWidth > 768 ? "right" : "bottom",
+    },
+  },
 ];

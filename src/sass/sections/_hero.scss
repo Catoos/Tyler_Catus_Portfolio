@@ -15,14 +15,82 @@
   right: 0;
   z-index: -1;
 
-  // Set position sticky so the jumbotron stays fixed while you scroll.
-  // position: sticky;
 
-  // If you want to set a background image on the hero section, uncomment these with your custom image
-
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  .circle{
+    position: absolute;
+    border-radius: 50%;
+    background: #2DD881;
+    animation: ripple 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+  }
+  
+  .small{
+    width: 300px;
+    height: 300px;
+    right: -100px;
+    bottom: -100px;
+  }
+  
+  .medium{
+    width: 500px;
+    height: 500px;
+    right: -200px;
+    bottom: -200px;
+  }
+  
+  .large{
+    width: 700px;
+    height: 700px;
+    right: -300px;
+    bottom: -300px;
+  }
+  
+  .xlarge{
+    width: 900px;
+    height: 900px;
+    right: -400px;
+    bottom: -400px;
+  }
+  
+  .xxlarge{
+    width: 1100px;
+    height: 1100px;
+    right: -500px;
+    bottom: -500px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -52,6 +120,8 @@
 
   .hero-cta {
     display: flex;
+    padding-right: 3px;
+    clear: left;
 
     @include respond(tab-port) {
       justify-content: center;
