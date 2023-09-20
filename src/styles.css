@@ -12335,6 +12335,56 @@ section {
 #hero .shade5 {
   opacity: 0.9;
 }
+@media (max-width: 768px) {
+  #hero .circle {
+    animation-duration: 10s;
+  }
+  #hero .small {
+    width: 175px;
+    height: 175px;
+    right: -100px;
+    bottom: -100px;
+  }
+  #hero .medium {
+    width: 325px;
+    height: 325px;
+    right: -200px;
+    bottom: -200px;
+  }
+  #hero .large {
+    width: 475px;
+    height: 475px;
+    right: -300px;
+    bottom: -300px;
+  }
+  #hero .xlarge {
+    width: 625px;
+    height: 625px;
+    right: -400px;
+    bottom: -400px;
+  }
+  #hero .xxlarge {
+    width: 775px;
+    height: 775px;
+    right: -500px;
+    bottom: -500px;
+  }
+  #hero .shade1 {
+    opacity: 0.2;
+  }
+  #hero .shade2 {
+    opacity: 0.5;
+  }
+  #hero .shade3 {
+    opacity: 0.7;
+  }
+  #hero .shade4 {
+    opacity: 0.8;
+  }
+  #hero .shade5 {
+    opacity: 0.9;
+  }
+}
 @keyframes ripple {
   0% {
     transform: scale(0.8);
