@@ -29,7 +29,7 @@
     height: 100%;
     overflow: hidden;
   }
-  
+
   .circle{
     position: absolute;
     border-radius: 50%;
@@ -91,6 +91,64 @@
   .shade5{
     opacity: 0.9;
   }
+
+  @media (max-width: 768px) {
+    .circle {
+      animation-duration: 10s;
+    }
+    .small{
+      width: 175px;
+      height: 175px; 
+      right: -100px;
+      bottom: -100px;
+    }
+  .medium{
+    width: 325px;
+    height: 325px; 
+    right: -200px;
+    bottom: -200px;
+  }
+  .large{
+     width: 475px;
+     height: 475px;
+     right: -300px;
+    bottom: -300px;
+    }
+  
+  .xlarge{
+    width: 625px;
+    height: 625px;
+    right: -400px;
+    bottom: -400px;
+  }
+  
+  .xxlarge{
+    width: 775px;
+    height: 775px;
+    right: -500px;
+    bottom: -500px;
+  }
+
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+  
+}
   
   @keyframes ripple{
     0%{
@@ -105,6 +163,8 @@
       transform: scale(0.8);
     }
   }
+
+  
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
